@@ -96,3 +96,4 @@ D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\obj\Debug\net7.0\API.pd
 D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\obj\Debug\net7.0\ref\API.dll
 D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\obj\Debug\net7.0\API.csproj.Up2Date
+D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\obj\Debug\net7.0\API.sourcelink.json
