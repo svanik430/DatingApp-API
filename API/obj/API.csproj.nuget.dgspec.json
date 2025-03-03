@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\API\\API.csproj": {}
+    "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\API\\API.csproj": {
+    "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\API\\API.csproj",
+        "projectPath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\API\\obj\\",
+        "outputPath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.19, )"
@@ -67,6 +71,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.19, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.7.1, )"
             }
           },
           "imports": [

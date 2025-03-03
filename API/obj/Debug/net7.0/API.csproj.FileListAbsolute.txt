@@ -8,6 +8,7 @@ D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\bin\Debug\net7.0\API.pd
 D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\bin\Debug\net7.0\Azure.Core.dll
 D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\bin\Debug\net7.0\Azure.Identity.dll
 D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\bin\Debug\net7.0\Humanizer.dll
+D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\bin\Debug\net7.0\Microsoft.Data.Sqlite.dll
@@ -95,5 +96,5 @@ D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\obj\Debug\net7.0\refint
 D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\obj\Debug\net7.0\API.pdb
 D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\obj\Debug\net7.0\ref\API.dll
-D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\obj\Debug\net7.0\API.csproj.Up2Date
-D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\obj\Debug\net7.0\API.sourcelink.json
+D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\api\obj\Debug\net7.0\API.sourcelink.json
+D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\api\obj\Debug\net7.0\API.csproj.Up2Date
