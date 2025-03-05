@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Y539lY+zPQITWraF6LIGyN4X4qurZ1hyNzhHKlnxEQATdcMmeZvqr/75PWKivic+/NouwJm3uWPvodLnMc+9g==",
+  "dgSpecHash": "ndpMhW5X4i16N/98xcuP+1I9hkv4wInz1KPK/XIax030JNxHRB7OuuYvryDHcFfrlGVjtrNW+QZ9m4xoH8cCBA==",
   "success": true,
-  "projectFilePath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\clientApp\\clientApp.csproj",
+  "projectFilePath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\ClientApp\\clientApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

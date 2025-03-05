@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\clientApp\\clientApp.csproj": {}
+    "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\ClientApp\\clientApp.csproj": {}
   },
   "projects": {
-    "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\clientApp\\clientApp.csproj": {
+    "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\ClientApp\\clientApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\clientApp\\clientApp.csproj",
+        "projectUniqueName": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\ClientApp\\clientApp.csproj",
         "projectName": "clientApp",
-        "projectPath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\clientApp\\clientApp.csproj",
+        "projectPath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\ClientApp\\clientApp.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\clientApp\\obj\\",
+        "outputPath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\ClientApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
