@@ -2982,11 +2982,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\api\\API.csproj",
+      "projectUniqueName": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\api\\API.csproj",
+      "projectPath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\api\\obj\\",
+      "outputPath": "D:\\Satya-Pratices\\DotNetCoreWithAngularApp\\DatingApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
