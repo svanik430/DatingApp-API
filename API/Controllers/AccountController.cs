@@ -22,20 +22,21 @@ namespace API.Controllers
         public async Task<ActionResult<UserDto>> Register(RegisterDto registerdto)
         {
             if (await UserExists(registerdto.Username)) return BadRequest("User Allready taken!");
-            using var hmac = new HMACSHA512();
-            var user = new AppUser
-            {
-                UserName = registerdto.Username.ToLower(),
-                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerdto.Password)),
-                PasswordSalt = hmac.Key
-            };
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
-            return new UserDto
-            {
-                UserName = user.UserName,
-                Token = _tokenServcies.CreateToken(user)
-            };
+            return Ok();
+            //using var hmac = new HMACSHA512();
+            //var user = new AppUser
+            //{
+            //    UserName = registerdto.Username.ToLower(),
+            //    PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerdto.Password)),
+            //    PasswordSalt = hmac.Key
+            //};
+            //_context.Users.Add(user);
+            //await _context.SaveChangesAsync();
+            //return new UserDto
+            //{
+            //    UserName = user.UserName,
+            //    Token = _tokenServcies.CreateToken(user)
+            //};
         }
         [HttpPost("login")]
         public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)

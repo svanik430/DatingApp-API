@@ -2,6 +2,7 @@
 using API.Interfaces;
 using API.Servcies;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 
 namespace API.Extensions
 {
@@ -22,6 +23,8 @@ namespace API.Extensions
                     });
             });
             servcies.AddScoped<ITokenServices, TokenServcies>();
+            servcies.AddScoped<IUserRepository, UserRepository>();
+            servcies.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             return servcies;
         }
     }
