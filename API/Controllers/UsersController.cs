@@ -6,6 +6,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace API.Controllers
 {
@@ -13,11 +14,12 @@ namespace API.Controllers
     public class UsersController:BaseApiController
     {
         public readonly IUserRepository _userRepository;
-        //public readonly IMapper _mapper;
-        public UsersController(IUserRepository userRepository)
+        public readonly IMapper _mapper;
+        public UsersController(IUserRepository userRepository, IMapper mapper)
         {
             _userRepository = userRepository;
-           
+            _mapper = mapper;
+
         }
         [HttpGet]
         public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
@@ -56,6 +58,22 @@ namespace API.Controllers
 
             if (user == null) return NotFound();
             return user;
+        }
+        [HttpPut]
+        public async Task<ActionResult> UpdateUser(MemberUpdateDto memberUpdateDto)
+        {
+            var username =   User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if(username == null) return BadRequest("No Username Found in token");
+
+            var user = await _userRepository.GetUsersByNameAsync(username);
+            if (user == null) return BadRequest("User Not Found");
+            _mapper.Map(memberUpdateDto, user);
+
+            if(await _userRepository.SaveAsyncAll())
+            {
+                return NoContent();
+            }
+            return BadRequest("Failed to update the user");
         }
     }
 }

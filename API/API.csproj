@@ -29,4 +29,8 @@
     <None Include="D:\Satya-Pratices\DotNetCoreWithAngularApp\DatingApp\API\Data\.editorconfig" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
+  </ItemGroup>
+
 </Project>
